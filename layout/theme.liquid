@@ -286,10 +286,11 @@
 
     {%- if customer.metafields.sparklayer.authentication -%}
       <!-- Start of SparkLayer core script-->
+    
       
 <script>
 window.sparkOptions = {
-	siteId: "consumedixbv",
+	siteId: "newfivebv",
 	platform: "shopify",
 	rootUrl: {{ routes.root_url | json }},
 	language: {{ request.locale.iso_code | json }},
